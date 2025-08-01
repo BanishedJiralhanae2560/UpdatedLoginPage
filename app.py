@@ -18,5 +18,6 @@ def register():
 def response():
     return render_template('welcome.html')
 
+#Lines of code to have the frontend part to function and display
 if __name__ == '__main__':
     app.run(debug=True)
